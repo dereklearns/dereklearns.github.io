@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>Derek Learns</title>
+    <description>Derek Learns is a blog dedicated to providing how-tos, tips, and tricks using Python. Data vizulaiztion and analysis projects will also be used as Derek is currently working towards fufilling the requirements of becoming a data scientist in the future.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 26 Apr 2019 05:22:18 -0500</pubDate>
-    <lastBuildDate>Fri, 26 Apr 2019 05:22:18 -0500</lastBuildDate>
+    <link>http://derekpiano.com/</link>
+    <atom:link href="http://derekpiano.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 26 Apr 2019 21:26:00 -0500</pubDate>
+    <lastBuildDate>Fri, 26 Apr 2019 21:26:00 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Fri, 26 Apr 2019 05:18:34 -0500</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2019/04/26/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2019/04/26/welcome-to-jekyll.html</guid>
+        <link>http://derekpiano.com/jekyll/update/2019/04/26/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://derekpiano.com/jekyll/update/2019/04/26/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
