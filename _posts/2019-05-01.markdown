@@ -1,0 +1,58 @@
+---
+layout: post
+title:  "Reading files and making bunnies using Python"
+date:   2019-05-1 010:10:34 -0500
+categories: python read write I\O 
+---
+
+We will be checking on our bunnies from time to time so it would be a good idea to put htis code into a function. 
+
+{%  highlight python %}
+def display_bunnies(bunnies):
+	for bunny in bunnies:
+	    print bunny
+
+{% endhighlight %}
+
+After seeing the power of using classes to make bunnies I have a crazy idea of making a 100 bunnies. It will take a lot of time to write out each name for all our bunnies and that wouldn't be practical (or fun) if we needed to name hundreds, or even thousands of bunnies. Could you imagine how long would take!?
+
+To speed up our process of naming bunnies, I searched for a list of names in a .txt format. I found one from the United Stated Naval Academy and saved it. Let's read this file into python and use `random.choose()` to randomlly select one for each bunny.
+
+{%  highlight python %}
+
+
+names = []
+with open(filename, 'r') as f:
+	for line in f:
+	# This loops through the name.txt and adds each one to our list
+	    names.append(line.strip()) 
+	    '''we use strip to eliminate escape characters and 
+	    white space, try it without strip to see the 
+	    difference'''
+
+# Creating 100 bunnies with a random name
+import random
+
+for _ in range(100):
+    random_name = random.choice(names)
+    bunnies.append(Bunny(random_name))
+
+display_bunnies(bunnies)
+
+
+
+{% endhighlight %}
+
+It seems that if we have 100 bunnies, they don't quite all fit on the console anymore using our print statement. Let's write our bunnies to a text file so we can scroll through and check on our bunnies without the console.
+
+{%  highlight python %}
+
+with open('mybunnies.txt', 'w') as f:
+    for bunny in bunnies:
+        f.write(str(bunny) + '\n')
+        # We can only write strings to a file so we include str()
+
+
+{% endhighlight %}
+
+Now, we can check out all our imaginary bunnies in our file named `mybunnies.txt`. Isn't that cool?
