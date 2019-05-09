@@ -7,7 +7,7 @@
 
 # Site settings
 title: Derek Learns 
-email: derekadam1988@gmail.com
+email: info@derekpiano.com
 description: > # this means to ignore newlines until "baseurl:"
   Derek Learns is a blog dedicated to providing how-to's, tips, and tricks using Python. Data vizulaiztion and analysis projects will also be used as Derek is currently working towards fufilling the requirements of becoming a data scientist in the future.
 baseurl: "" # the subpath of your site, e.g. /blog
